@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="adminstyle.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="clr">
+		<img src="logo.png">
+		<h1>Student Grievance Redressal Portal</h1>
+	</div>
+	</header>
+	<nav id="navbar">
+	<ul>
+		<li>Dashboard</li>
+				<li>Admin_username</li>
+		<li><button class="logout-button right-align" type="button" value="Logout" name="logout">Logout</button></li>
+	
+	</ul>		
+	</nav>
+	<div class="clr">
+	<div class="block">	
+		<label>Complaint Level</label>
+		<select name="level">
+			<option value="">Select</option>
+			<option value="Department level">Department level</option>
+			<option value="College level">College level</option>
+			<option value="Institute level">Institute level</option>
+		</select>
+	</div>
+	<div class="block">	
+		<label>Type of Complaint</label>
+		<select name="type">
+			<option value="">Select</option>
+			<option value="">Finance</option>
+			<option value="">Examination</option>
+			<option value="">Lecture Timetable</option>
+			<option value="">Paper Re-Evaluation</option>
+			<option value="">Finance</option>
+			<option value="">Hostel</option>
+			<option value="">Mess</option>
+		</select>
+	</div>
+	<div class="block">	
+		<label>Sort by Date</label>
+		<select name="type">
+			<option value="">Select</option>
+			<option value="">Newest First</option>
+			<option value="">Oldest First</option>
+			<option value="">Emergency</option>
+		</select>
+	</div>
+	<div class="block">	
+		<label>Sort by Status</label>
+		<select name="type">
+			<option value="">Select</option>
+
+			<option value="">In-Process</option>
+			<option value="">New</option>
+		</select>
+	</div>
+</div>
+	<!--TABLE-->
+	<table>
+		<thead>
+			<tr>
+				<th>Serial<br>No</th>
+				<th>Complaints Filed</th>
+				<th>Date</th>
+				<th>Status</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td class="hover"><a href="">Re-evaluation of Mathematics midsem papers</a></td>
+				<td>01.01.2020</td>
+				<td>In Process</td>
+
+			</tr>
+			<tr>
+				<td>2</td>
+				<td class="hover"><a href="">Regarding poor ventilation in classrooms</a></td>
+					<td>10.01.2020</td>
+				<td>In Process</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td class="hover"><a href="">Improvement of Registration process</a></td>
+				<td>11.01.2020</td>
+				<td>Resolved</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td class="hover"><a href="">Change of faculty in ECE Department</a></td>
+				<td>15.01.2020</td>
+				<td>Resolved</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td class="hover"><a href="">Change in lecture timetable</a></td>
+				<td>17.01.2020</td>
+				<td>Acknowledged</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+</body>
+</html>

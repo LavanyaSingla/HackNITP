@@ -1,0 +1,58 @@
+*{
+	margin:0;
+}
+#main-header{
+	font-family:Georgia;
+	font-size:20px;
+	color:#000;
+	text-transform: uppercase;
+	border:3px grey solid;
+
+}
+#main-header img{
+	height:200px;
+	float:left;
+	padding:10px;
+	padding-right:100px;
+	box-sizing: border-box;
+	
+
+}
+#main-header h1{
+	padding:75px 0;
+
+}
+
+.clr::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form{
+margin:auto;
+width:60%;
+}
+p
+{
+	background-color: #fed39f;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.padding{
+	margin-right:2rem; 
+}
+.sub{
+	padding:10px;
+	background-color:black;
+    color:white;
+    margin-left: 22rem;
+}
+.sub:hover{
+	background-color:lightgreen;
+	color:black;
+}
+form label{
+	font-size: 18px; 
+}

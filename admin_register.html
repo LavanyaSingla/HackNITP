@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+
+<link rel="stylesheet" href="register.css">
+
+  </head>
+  <body><section id="header">
+    <div class="row">
+      <div class="col-lg-3">
+        <a class="head-link" href="home.html"><h2>Home</h2></a>
+      </div>
+      <div class="col-lg-6">
+         <h1 class="title-head">REGISTRATION - FOR COMMITTEE MEMBERS</h1>
+      </div>
+      <div class="col-lg-3">
+        <a class="head-link" href="#footer"><h2>Contact Us</h2></a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+    <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Name of applicant</span>
+    </div>
+    <input type="text" aria-label="First name" class="form-control">
+
+  </div>
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+
+    <option value="1">Male</option>
+    <option value="2">Female</option>
+    <option value="3">Others</option>
+  </select>
+</div>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <label class="calendar input-group-text" for="start">Date of Birth</label>
+  </div>
+  <input class="date" type="date" id="start" name="trip-start" aria-label="First name" class="form-control"  value="2018-07-22"
+   min="2018-01-01" max="2018-12-31"></input>
+
+
+
+
+</div>
+
+  <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Employee ID</span>
+  </div>
+  <input type="text" aria-label="First name" class="form-control">
+
+</div>
+
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">Email</span>
+</div>
+<input type="email" aria-label="First name" class="form-control">
+
+</div>
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">Phone number</span>
+</div>
+<input type="text" aria-label="First name" class="form-control">
+
+</div>
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">Residential address</span></div>
+<input type="text" aria-label="First name" class="form-control">
+
+
+</div>
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">Affilation Number</span></div>
+<input type="text" aria-label="First name" class="form-control">
+
+
+</div>
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">College</span></div>
+<input type="text" aria-label="First name" class="form-control">
+
+
+</div>
+
+<!--<h4 class="alert" >Your email address will be your login ID</h4>-->
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">Password</span>
+</div>
+<input type="password" aria-label="First name" class="form-control">
+
+</div>
+<div class="input-group">
+<div class="input-group-prepend">
+  <span class="input-group-text">Confirm Password</span>
+</div>
+<input type="password" aria-label="First name" class="form-control">
+
+</div>
+<div class="input-group">
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+    <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+  </div>
+  <div class="input-group-append">
+    <button class="btn btn-outline-dark" type="button" id="inputGroupFileAddon04">Upload File</button>
+  </div>
+</div>
+<div class="input-group" >
+  <input class="btn btn-lg btn-dark" id="sub" type="submit" value="Submit">
+</div>
+<section id="footer">
+  <div class="row">
+    <div class="col-lg-4">
+    <h3>Contact Us</h3>
+    <p>1800 900 XYZ<br>24,Ministry Road,<br>Amravati,<br>522007,<br>Andhra Pradesh</p>
+
+    </div>
+    <div class="col-lg-4">
+    <h5>Mail Us</h5>   
+    <a href="mailto: s_g_system@ap.gov.in"><p>s_g_system@ap.gov.in</p></a></div>
+    <div class="col-lg-4">
+    <h3> Software Support</h3>
+      <a href="https://www.ap.gov.in/">Click here<br>for help </a>
+    </div>
+
+  </div>
+</section>
+<script src="register.css" charset="utf-8"></script>
+  </body>
+</html>

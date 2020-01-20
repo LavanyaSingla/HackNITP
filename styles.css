@@ -1,0 +1,62 @@
+
+.title-img{
+  margin-right: 7rem;
+  margin-left:2rem;
+}
+.title-heading{
+  text-align: center;
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 3rem;
+
+}
+.nav-link{
+  margin-top: 2rem;
+}
+.know-img{
+  text-align: center;
+  margin-top: 7rem;
+}
+.know{
+  background-color: #edf7fa;
+   padding: 4rem 0 4rem 0;
+   padding-left: 8rem;
+  font-size: 1.5rem;
+  
+
+}
+#Features{
+  padding:4rem 0 4rem 0;
+  background-color: #7fcd91;
+  text-align: center;
+font-size: 1.5rem;
+
+}
+.icon{
+  color:blue;
+
+}
+.carousel-item{
+  text-align: center;
+}
+#Entry{
+  padding:4rem 0 4rem 0;
+  background-color: #ffd271;
+  text-align: center;
+}
+.btn{
+  padding: 0 1rem 1rem  1rem;
+}
+h3{
+  color:#4a47a3 !important;
+}
+.div-head{
+  padding:2rem 0 -1rem 0;
+  font-size: 2rem;
+}
+#footer{
+  padding:2rem 0 2rem 2rem;
+  background-color: #000;
+  color:#fff;
+  font-size: 1.5rem;
+}

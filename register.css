@@ -1,0 +1,45 @@
+body{
+  background-color: #effffb;
+}
+.input-group{
+  text-align: center;
+  width:50%;
+  margin: 5rem 0 1rem 25rem;
+}
+.alert{
+
+  margin-left: 25rem;
+}
+.form-check{text-align: center;
+  width:20%;
+  margin: 5rem 0 0 25rem;
+}
+.title-head{
+
+  text-align: center;
+}
+#footer{
+  padding-left:21rem;
+  background-color: #000;
+  color:#fff;
+}
+#header{
+  text-align: center;
+  padding-top: 2rem;
+}
+.head-link{
+  font-weight: bold;
+  color:#2d334a;
+}
+.calendar {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.date, .calendar {
+    margin: .4rem 0;
+}
+#sub
+{
+  margin-left: 18rem;
+}
